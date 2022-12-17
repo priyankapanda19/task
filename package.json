@@ -1,0 +1,28 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "Knovator Technologies\r Practical Interview Task (Node.js) Timeline :- 04:00 Hours\r Task 1:\r - Setup node app and mongoose connectivity.\r Task 2:\r - Create APIs for login and registration using passport JWT token.\r Task 3: Create the CRUD of Post for the only authenticated user.\r - User can actions on their own posts only.\r - It should have following details:\r - Title\r - Body\r - Created By\r - Active/Inactive\r - Geo location (latitude and longitude)\r Note: Validate all requests using any library\r Task 4:\r - Create an API to retrieve posts using latitude and longitude.\r Task 5:\r - Show the count of active and inactive post in the dashboard.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankapanda19/task.git"
+  },
+  "author": "Priyanka Panda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankapanda19/task/issues"
+  },
+  "homepage": "https://github.com/priyankapanda19/task#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "geolocation-utils": "^1.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+    
+  }
+}
